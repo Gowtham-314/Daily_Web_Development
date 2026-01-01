@@ -1,93 +1,132 @@
-# Master Full Stack Development: A Step-by-Step Guide
-This roadmap is designed to take you from "copy-pasting code" to "building apps from scratch," specifically using the stack from your `ERP_APP` (React, Vite, Tailwind, Node.js).
+# Full Stack Web Development - Skill Up (GeeksforGeeks)
 
----
+Course Progress Tracker based on the [GeeksforGeeks Syllabus](https://www.geeksforgeeks.org/batch/skill-up-full-stack-web-development?tab=Chapters).
 
-## **Phase 1: The Foundation (Weeks 1-2)**
-*Goal: Understand the raw materials before using the power tools.*
+## Week 1: Learn HTML
 
-### **Step 1.1: HTML & CSS (The Skeleton & Skin)**
-*Apps are just fancy HTML boxes. You need to know how to structure them.*
-*   **Learn**: Semantic tags (`<header>`, `<main>`, `<article>`), Forms, and Flexbox.
-*   **Practice**:
-    *   Create a simple "Resume" page using only HTML.
-    *   Style it with CSS to look like a printed paper.
-    *   **Challenge**: Build a "Login Page" with centered input boxes using `display: flex`.
+- [ ] **Day 1**: Web Development And Structure
+- [ ] **Day 2**: Tags
+- [ ] **Day 3**: Fundamentals
+- [ ] **Day 4**: HTML Tables
+- [ ] **Day 5**: HTML - Intermediate Level
+- [ ] **Day 6**: HTML Advanced Level
+- [ ] **Day 7**: First Project & Practice
 
-### **Step 1.2: Modern JavaScript (The Brains)**
-*Your `ERP_APP` uses "ES6" JavaScript. You must master these specific features.*
-*   **Learn**:
-    *   `const` vs `let` (never use `var`).
-    *   **Arrow Functions**: `() => {}` (Used everywhere in React).
-    *   **Destructuring**: `const { name } = user;` (Used to extract props).
-    *   **Map & Filter**: `items.map(item => ...)` (Used to render lists of components).
-*   **Practice**:
-    *   Write a script that takes an array of numbers `[1, 2, 3]` and prints their squares `[1, 4, 9]` using `.map()`.
+## Week 2: Learn CSS
 
----
+- [ ] **Day 8**: Introduction to CSS
+- [ ] **Day 9**: CSS Fundamentals
+- [ ] **Day 10**: CSS Intermediate Level
+- [ ] **Day 11**: Project and Practice
+- [ ] **Day 12**: BootStrap
+- [ ] **Day 13**: Tailwind
+- [ ] **Day 14**: Assignment
 
-## **Phase 2: Mastering Frontend with React (Weeks 3-5)**
-*Goal: Build the `ERP_APP` UI from scratch.*
+## Week 3: Learn JavaScript (Part 1)
 
-### **Step 2.1: Components & Props**
-*Everything is a component.*
-*   **Learn**: How to pass data from a parent to a child using `props`.
-*   **Project**: Build a **"Profile Card"** component that accepts `name`, `role`, and `image` as props and displays them. Use it 3 times with different data.
+- [ ] **Day 15**: Introduction to JavaScript
+- [ ] **Break Day**
+- [ ] **Day 16**: Data Types and Operators
+- [ ] **Day 17**: Control Flow & Loops
+- [ ] **Day 18**: Functions
+- [ ] **Day 19**: Arrays
+- [ ] **Day 20**: Objects
+- [ ] **Day 21**: DOM and BOM
 
-### **Step 2.2: State Management (`useState`)**
-*How the app "remembers" things.*
-*   **Learn**: `const [count, setCount] = useState(0);`
-*   **Project**: Build a **"Counter App"** with valid "+", "-", and "Reset" buttons.
-*   **Challenge**: Make the background color change when the number is negative.
+## Week 4: Learn JavaScript (Part 2)
 
-### **Step 2.3: Effects & Data (`useEffect`)**
-*How to fetch data when the page loads.*
-*   **Learn**: The `useEffect` dependency array `[]`.
-*   **Project**: Fetch a random joke from a free API (like `https://api.chucknorris.io/`) and display it when the page loads.
+- [ ] **Day 22**: Events
+- [ ] **Day 23**: Object-Oriented Programming (OOP)
+- [ ] **Day 24**: ES6+ Features
+- [ ] **Day 25**: Asynchronous JavaScript
+- [ ] **Day 26**: Strict Mode and Error Handling
+- [ ] **Day 27**: Modules and Advanced Topics
+- [ ] **Day 28**: Build and Deploy Projects
 
-### **Step 2.4: Routing (`react-router-dom`)**
-*Making a single page build feel like multiple pages.*
-*   **Learn**: `BrowserRouter`, `Routes`, `Route`, `Link`.
-*   **Project**: Combine your "Profile Card" and "Counter App" into one site with a navigation bar to switch between them.
+## Week 5: Learn React
 
----
+- [ ] **Day 29**: Introduction to React
+- [ ] **Day 30**: ReactJS Virtual DOM and Reconciliation
+- [ ] **Day 31**: Functional Components
+- [ ] **Day 32**: Class Components and Lifecycle Methods
+- [ ] **Day 33**: State in React
+- [ ] **Day 34**: Event Handling
+- [ ] **Day 35**: Conditional Rendering
 
-## **Phase 3: The Backend (Weeks 6-8)**
-*Goal: Build your own server to store real data.*
+## Week 6: React Hook
 
-### **Step 3.1: Node.js & Express**
-*   **Learn**: How to start a simple server `app.listen(3000)`.
-*   **Project**: Create a "Hello World" API. Visiting `http://localhost:3000/api` should return `{ message: "Hello!" }`.
+- [ ] **Day 36**: Lists and Keys
+- [ ] **Day 37**: React Forms
+- [ ] **Day 38**: React Hooks
+- [ ] **Day 39**: Context API
+- [ ] **Day 40**: React Router
+- [ ] **Day 41**: State Management with Redux
+- [ ] **Day 42**: Custom Hooks & Project
 
-### **Step 3.2: REST APIs**
-*   **Learn**: GET (read), POST (create), PUT (update), DELETE (remove).
-*   **Project**: Build a **"Notes API"** where you can send a Note title/body and have the server save it in a memory array.
+## Week 7: Animations, Debugging and React Projects
 
-### **Step 3.3: Databases (MongoDB)**
-*   **Learn**: Saving data permanently.
-*   **Project**: Connect your "Notes API" to MongoDB so your notes survive even if you restart the server.
+- [ ] **Day 43**: Advanced Hooks and Patterns
+- [ ] **Day 44**: React With TypeScript
+- [ ] **Day 45**: Error Boundaries and Debugging
+- [ ] **Day 46**: Animations and Transitions in React
+- [ ] **Day 47**: Testing in React
+- [ ] **Day 48**: Building the Final Project
+- [ ] **Day 49**: Deploying the Project
 
----
+## Week 8: Understanding Node.js
 
-## **Phase 4: Capstone Projects (The Final Boss)**
-*Combine everything to prove mastery.*
+- [ ] **Day 50**: Introduction to Node.js
+- [ ] **Day 51**: Node.js Basics
+- [ ] **Day 52**: Node.js Modules
+- [ ] **Day 53**: Node.js Web Server
+- [ ] **Day 54**: Blocking Vs Non-Blocking in Node.js
+- [ ] **Day 55**: Node.js Callback Concept
+- [ ] **Day 56**: Deploying Node.js Project
 
-1.  **Level 1: The "To-Do" App**
-    *   **Features**: Add task, delete task, mark as done.
-    *   **Tech**: React + LocalStorage (No backend yet).
+## Week 9: Learn Nodejs (Part - 2)
 
-2.  **Level 2: The E-Commerce Store**
-    *   **Features**: Product list, Shopping Cart, Checkout form.
-    *   **Tech**: React + Context API + Fake API.
+- [ ] **Day 57**: Node.js Debugging and Console Management
+- [ ] **Day 58**: Node.js Event Loop
+- [ ] **Day 59**: Node.js Modules
+- [ ] **Day 60**: Node.js Promises and Chaining
+- [ ] **Day 61**: Node.js HTTP Module and Express Framework
+- [ ] **Day 62**: Node.js REST API Development
+- [ ] **Day 63**: Practice Day
 
-3.  **Level 3: The "Mini ERP" (Your Goal)**
-    *   **Features**: Login system, Student Dashboard, Admin Panel to add students.
-    *   **Tech**: React (Frontend) + Node/Express (Backend) + MongoDB (Database).
+## Week 10: Express.JS
 
----
+- [ ] **Day 64**: Introduction to Express.js
+- [ ] **Day 65**: Routing and HTTP Module
+- [ ] **Day 66**: Middleware
+- [ ] **Day 67**: Serving Static Files & Template Engines
+- [ ] **Day 68**: Introduction to MongoDB and Mongoose
+- [ ] **Day 69**: Error Handling in Express.js
+- [ ] **Day 70**: Practices
 
-## **How to Start Today**
-Don't try to learn everything at once. Start *small*.
-**Your Mission for Today:**
-> Go to your `ERP_APP`, open `App.jsx`, and try to **change the text color of one button** using Tailwind CSS classes (e.g., change `bg-blue-500` to `bg-red-500`).
-> *If you can do that, you've already started Phase 1.*
+## Week 11: Express js (Part 2)
+
+- [ ] **Day 71**: Authentication with JWT
+- [ ] **Day 72**: Sessions and Cookies
+- [ ] **Day 73**: Security Best Practices
+- [ ] **Day 74**: Real-Time Communication with WebSockets
+- [ ] **Day 75**: Handling File Uploads
+- [ ] **Day 76**: Building RESTful APIs with Express.js
+- [ ] **Day 77**: Practices
+
+## Week 12: MongoDB
+
+- [ ] **Day 78**: Introduction to MongoDB
+- [ ] **Day 79**: MongoDB Architecture and Data Model
+- [ ] **Day 80**: CRUD Operations
+- [ ] **Day 81**: Querying Data
+- [ ] **Day 83**: CRUD Operations with Mongoose
+- [ ] **Day 84**: Indexing for Performance in MongoDB
+
+## Week 13: Learn MongoDB/Mongoose (Part 2)
+
+- [ ] **Day 85**: Mongoose Queries & Population (Joins)
+- [ ] **Day 86**: Transactions in MongoDB & Mongoose
+- [ ] **Day 87**: Security & Authentication in MongoDB
+- [ ] **Day 88**: Replication and Sharding
+- [ ] **Day 89**: Caching in MongoDB
+- [ ] **Day 90**: Final Project & Optimization
