@@ -25,7 +25,6 @@ Course Progress Tracker based on the [GeeksforGeeks Syllabus](https://www.geeksf
 ## Week 3: Learn JavaScript (Part 1)
 
 - [ ] **Day 15**: Introduction to JavaScript
-- [ ] **Break Day**
 - [ ] **Day 16**: Data Types and Operators
 - [ ] **Day 17**: Control Flow & Loops
 - [ ] **Day 18**: Functions
