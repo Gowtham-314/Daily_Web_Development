@@ -25,9 +25,9 @@
                 </summary>
                 <br>
                 <ul>
-                    <li>[ ] 🏗️ <b>Day 1</b>: Web Development And Structure</li>
-                    <li>[ ] 🏷️ <b>Day 2</b>: Tags</li>
-                    <li>[ ] 📜 <b>Day 3</b>: Fundamentals</li>
+                    <li>[✓] 🏗️ <b>Day 1</b>: Web Development And Structure</li>
+                    <li>[✓] 🏷️ <b>Day 2</b>: Tags</li>
+                    <li>[✓] 📜 <b>Day 3</b>: Fundamentals</li>
                     <li>[ ] 📊 <b>Day 4</b>: HTML Tables</li>
                     <li>[ ] 🧩 <b>Day 5</b>: HTML - Intermediate Level</li>
                     <li>[ ] 🚀 <b>Day 6</b>: HTML Advanced Level</li>
