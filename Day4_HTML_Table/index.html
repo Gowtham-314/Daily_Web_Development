@@ -8,36 +8,21 @@
         table,
         th,
         td {
-            border: 1px solid black;
-            border-collapse: collapse;
+            border: 1px solid black;   /* Adding borders to table, th and td */
+            border-collapse: collapse;  /* Collapsing borders into a single border */
+            padding : 10px                /* Adding padding for better readability */
+        }
+        th{
+            text-align:left;           /* Aligning header text to the left */
+        }
+        table{
+            border-spacing: 15px;      /* Adding space between cells */
         }
     </style>
 </head>
 <body>
+    <h1>HTML Table Example</h1>
     <table>
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Priya</td>
-            <td>Sharma</td>
-            <td>24</td>
-        </tr>
-        <tr>
-            <td>Arun</td>
-            <td>Singh</td>
-            <td>32</td>
-        </tr>
-        <tr>
-            <td>Sam</td>
-            <td>Watson</td>
-            <td>41</td>
-        </tr>
-    </table>
-    <br>
-    <table style="width:100%">
         <tr>
             <th>Firstname</th>
             <th>Lastname</th>
