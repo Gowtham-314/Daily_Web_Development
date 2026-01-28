@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        h1 {
+            color: green;
+            text-align: center;
+        }
+
+        hr {
+            border: 2px solid green;
+        }
+        form {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid green;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        dl {
+            margin-bottom: 20px;
+        }
+        dt {
+            font-weight: bold;
+        }
+
+        dd {
+            margin-left: 20px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 200px;
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: greenyellow;" align="center">HTML Label Tag</h1><hr>
+    <form>
+        <h1>Label Example</h1><hr>
+
+        <dl>
+            
+        <dt><ul><li>Using "label" tag with for attribute</li></ul></dl><dt><br>
+
+        <dd><label for="Student">Student:
+        </label>
+        <input type="text" id="Student" name="Student"><br></dd><br>
+
+        <dd><label for="Student">Male</label>
+        <input type="radio" id="Student" name="gender" value="male"></dd><br>
+
+        <dd><label for="Student">Female</label>
+        <input type="radio" id="Student" name="gender" value="female"></dd><br>
+
+        </dl>
+
+        <hr>
+        <dl>
+
+        <dt><ul><li>Using "input" tag inside "label" tag </li></ul></dt><br>
+
+        <dd><label>Business:
+            <input type="text" name="business">
+        </label><br></dd><br>
+
+        <dd><label>Email:
+            <input type="email" name="email">
+        </label><br></dd><br>
+
+        <dd><label>Password:
+            <input type="password" name="password">
+        </label></dd><br>
+        <br>
+
+        </dl>
+
+    </form>
+</body>
+</html>

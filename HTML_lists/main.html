@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        h1 {
+            color: green;
+            text-align: center;
+        }
+        ul {
+            color: coral;
+        }
+        ol {
+            color: rgb(85, 166, 85);
+        }
+        ul li, ol li {
+            margin: 5px 0;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 18px;
+            font-weight: bold;
+            list-style-type: none;
+            text-align: center;
+            text-transform: capitalize;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        hr {
+            border-color: yellowgreen;
+            border-style: double;
+            border-width: 4px;
+        }
+        marquee {
+            font-family: 'Arial Black', Gadget, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(75, 128, 0);
+        }   
+        dl {
+            align-items: center;
+            font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+            color: rgb(225,127,80);
+        }
+        dt {
+            font-weight: bold;
+            align-items: center;
+            text-align: center
+        }
+        dd {
+            font-style: italic;
+            align-items: center;
+            text-align: center;
+        }   
+    </style>
+</head>
+<body style="background-color: #c5f3ef;">
+    <h1 align="center" style="color:green" >HTML Lists</h1>
+    <hr>
+    <marquee direction="left" scrollamount="10" behavior="alternate" speed="10">
+    <h2>Unordered List</h2>
+    </marquee>
+    <ul style="color:coral;">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <Li>Item 4</Li>
+    </ul>
+<hr>
+    <marquee direction="right" scrollamount="10" behavior="alternate" speed="10">
+    <h2>Ordered List</h2>
+    </marquee>
+    <ol style="color:rgb(85, 166, 85);">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <Li>Item 4</Li>
+    </ol>
+    <hr>
+    <marquee direction="left" scrollamount="10" behavior="alternate" speed="10">
+    <h2> Reversed attribute</h2>
+    </marquee>
+    <ol reversed style="color:rgb(255, 99, 71);">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <Li>Item 4</Li>
+    </ol>
+    <hr>
+    <marquee direction="right" scrollamount="10" behavior="alternate" speed="10">
+    <h2> Type attribute</h2>
+    </marquee>
+    <ol type="i" style="color:rgb(255, 99, 71);">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <Li>Item 4</Li>
+    </ol>
+        <hr>
+
+    <marquee direction="left" scrollamount="10" behavior="alternate" speed="10">
+    <h2> Start attribute</h2>
+    </marquee>
+    <ol start="5" style="color:rgb(255, 99, 71);">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <Li>Item 4</Li>
+    </ol>
+    <hr>
+
+    <marquee direction="right" scrollamount="10" behavior="alternate" speed="10">
+    <h2> Description Lists</h2>
+    </marquee>
+    <dl style="color: coral;">
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JS</dt>
+        <dd>JavaScript</dd>
+        <dt>PHP</dt>
+        <dd>Hypertext Preprocessor</dd>
+        <dt>SQL</dt>
+        <dd>Structured Query Language</dd>
+    </dl>
+</body>
+</html>

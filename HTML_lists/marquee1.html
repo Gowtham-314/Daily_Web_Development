@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee Tag</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        h1 {
+            color: green;
+            text-align: center;
+        }
+        
+        b {
+            text-align: left;
+            color: rgb(185, 54, 215);
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        ul {
+            color: rgb(239, 51, 17);
+        }
+        ol {
+            color: rgb(85, 166, 85);
+        }
+        ul li, ol li {
+            margin: 5px 0;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 18px;
+            list-style-type: none;
+
+            text-align: left;
+            text-transform: capitalize;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        hr {
+            border-color: yellowgreen;
+            border-style: double;
+            border-width: 4px;
+        }
+        marquee {
+            font-family: 'Arial Black', Gadget, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(75, 128, 0);
+        }           
+    
+    
+    </style>
+</head>
+<body>
+    <h1 style="color:green" align="center">Marquee Tag</h1>
+    <marquee behavior="scroll" direction="left" scrollamount="10" bgcolor="lightgrey" width="80%" height="50px" loop="infinite">
+        This is a sample scrolling text using the &lt;marquee&gt; tag!
+    </marquee>
+    <br>
+    <h3> Explain about attribute of marquee tag</h3>
+    <ul>
+        <li><b>behavior:</b> Specifies the scrolling behavior (scroll, slide, alternate).</li>
+        <li><b>direction:</b> Specifies the direction of the scroll (left, right, up, down).</li>
+        <li><b>scrollamount:</b> Defines the speed of the scrolling text.</li>
+        <li><b>bgcolor:</b> Sets the background color of the marquee area.</li>
+        <li><b>width:</b> Sets the width of the marquee area.</li>
+        <li><b>height:</b> Sets the height of the marquee area.</li>
+        <li><b>loop:</b> Specifies how many times the marquee will scroll (infinite for continuous scrolling).</li>
+    </ul>
+    <br>
+    <!-- Example for each attribute of marquee tag -->
+     <h2>Examples of Marquee Tag Attributes</h2>
+     <hr>
+     <h2>1. Behavior Attribute</h2>
+     <marquee behavior="alternate" direction="left" speed="30">
+        This marquee uses the "alternate" behavior.
+        </marquee>
+        <hr>
+        <h2>2. Direction Attribute</h2>
+        <marquee direction="right">
+        This marquee uses the "right" direction.
+        </marquee>
+        <hr>
+        <h2>3. Scrollamount Attribute</h2>      
+        <marquee scrollamount="20">
+        This marquee has a scroll amount of 20.
+        </marquee>
+        <hr>
+
+        <h2>4. Bgcolor Attribute</h2>
+        <marquee bgcolor="lightblue">
+        This marquee has a background color of lightblue.
+        </marquee>
+        <hr>
+        <h2>5. Width and Height Attributes</h2>
+        <marquee width="60%" height="40px">
+        This marquee is 60% wide and 40px tall.
+        </marquee>
+        <hr>
+
+        <h2>6. Loop Attribute</h2>
+        <marquee loop="infinite">
+        This marquee will loop indefinitely.
+        
+        </marquee>
+        <hr>
+</body>
+</html>
